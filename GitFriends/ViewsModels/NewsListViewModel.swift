@@ -21,6 +21,7 @@ class NewsListViewModel {
             }
             let newsVM = news.map(NewsViewModel.init)
             DispatchQueue.main.async {
+                // *ask* newsVM , newsVM again
                 self.newsVM = newsVM
                 completion(newsVM)
             }

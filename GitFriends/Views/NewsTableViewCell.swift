@@ -10,7 +10,7 @@ import UIKit
 final class NewsTableViewCell: UITableViewCell {
     
     var newsVM: NewsViewModel? {
-        didSet {
+        didSet { //*ask* is there something funny? ti
             if let newsVM = newsVM {
                 titleLabel.text = newsVM.title
                 NetworkManager.shared.getImage(urlString: newsVM.urlToImage) { data in
@@ -40,12 +40,14 @@ final class NewsTableViewCell: UITableViewCell {
     private lazy var titleLabel: UILabel = {
         let v = UILabel()
         v.translatesAutoresizingMaskIntoConstraints = false
+        v.numberOfLines = 0 // *ask* this line was missing
         return v
     }()
     
     override init(style:UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         selectionStyle = .none
+        setupView() // *ask* this line was missing
     }
     
     required init?(coder: NSCoder) {

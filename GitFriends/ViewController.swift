@@ -42,7 +42,7 @@ class ViewController: UIViewController {
     }
     
     func setupView() {
-        view.backgroundColor = .systemBackground
+        view.backgroundColor = .white
         view.addSubview(headerView)
         view.addSubview(tableView)
         setupConstraints()
@@ -53,6 +53,7 @@ class ViewController: UIViewController {
         NSLayoutConstraint.activate([
             headerView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             headerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10)
+            //*ask* missing Constraints ???
         ])
         
         // tableView
@@ -83,7 +84,6 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: viewModel.reuseID, for: indexPath) as? NewsTableViewCell
         let news = viewModel.newsVM[indexPath.row]
         cell?.newsVM = news
-        print("print: \(cell)")
         return cell ?? UITableViewCell()
     }
     

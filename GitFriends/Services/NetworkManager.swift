@@ -15,16 +15,16 @@ class NetworkManager {
     
     private init() {}
     
-    private let baseURL = "https://newsapi.org/v2/"
+    private let baseURLString = "https://newsapi.org/v2/"
     private let USTopHeadline = "top-headlines?country=us"
     
     func getNews(completion: @escaping ([News]?) -> Void) {
-        let urlString = "\(baseURL)\(USTopHeadline)&apiKey=\(APIKey.key)"
+        let urlString = "\(baseURLString)\(USTopHeadline)&apiKey=\(APIKey.key)"
         guard let url = URL(string: urlString) else {
             return
         }
         
-        URLSession.shared.dataTask(with: url) { (data, response, error ) in
+        URLSession.shared.dataTask(with: url) { data, response, error  in
             guard error == nil, let data = data else {
                 completion(nil)
                 return
@@ -35,7 +35,7 @@ class NetworkManager {
     }
     
     
-    func getImage(urlString: String, completion: @ escaping (Data?) -> Void) {
+    func getImage(urlString: String, completion: @escaping (Data?) -> Void) {
         guard let url = URL(string: urlString) else {
             completion(nil)
             return
