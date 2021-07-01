@@ -30,7 +30,7 @@ struct NewsViewModel {
     }
     
     var urlToImage: String {
-        return news.urlToImage ?? "placeholder"
+        return news.urlToImage ?? "https://image.shutterstock.com/image-photo/random-photos-taked-on-weekend-600w-1851612238.jpg"
     }
     
 }

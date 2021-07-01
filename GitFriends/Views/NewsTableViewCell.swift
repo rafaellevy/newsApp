@@ -40,12 +40,14 @@ final class NewsTableViewCell: UITableViewCell {
     private lazy var titleLabel: UILabel = {
         let v = UILabel()
         v.translatesAutoresizingMaskIntoConstraints = false
+        v.numberOfLines = 0
         return v
     }()
     
     override init(style:UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         selectionStyle = .none
+        setupView()
     }
     
     required init?(coder: NSCoder) {

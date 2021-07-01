@@ -83,7 +83,6 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: viewModel.reuseID, for: indexPath) as? NewsTableViewCell
         let news = viewModel.newsVM[indexPath.row]
         cell?.newsVM = news
-        print("print: \(cell)")
         return cell ?? UITableViewCell()
     }
     
