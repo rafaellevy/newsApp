@@ -31,6 +31,7 @@ struct NewsViewModel {
     
     var urlToImage: String {
         return news.urlToImage ?? "hhttps://image.shutterstock.com/image-photo/random-photos-taked-on-weekend-600w-1851612238.jpg"
+
     }
     
 }

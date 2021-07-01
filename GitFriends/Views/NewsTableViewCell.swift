@@ -48,6 +48,7 @@ final class NewsTableViewCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         selectionStyle = .none
         setupView() // *ask* this line was missing
+
     }
     
     required init?(coder: NSCoder) {
