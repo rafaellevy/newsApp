@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70B3388926D0CCFA00F57338 /* NewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A093252687CFF8006D115B /* NewsAppTests.swift */; };
+		70B3388A26D0CD0100F57338 /* NewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A093302687CFF8006D115B /* NewsAppUITests.swift */; };
 		A720E4352687D48B00166D92 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A720E4342687D48B00166D92 /* APIKey.swift */; };
 		A720E4382687D4EE00166D92 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = A720E4372687D4EE00166D92 /* News.swift */; };
 		A720E43B2687D5FE00166D92 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A720E43A2687D5FE00166D92 /* NetworkManager.swift */; };
@@ -16,8 +18,6 @@
 		A7A093132687CFF7006D115B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A093122687CFF7006D115B /* ViewController.swift */; };
 		A7A093182687CFF8006D115B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A093172687CFF8006D115B /* Assets.xcassets */; };
 		A7A0931B2687CFF8006D115B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A093192687CFF8006D115B /* LaunchScreen.storyboard */; };
-		A7A093262687CFF8006D115B /* GitFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A093252687CFF8006D115B /* GitFriendsTests.swift */; };
-		A7A093312687CFF8006D115B /* GitFriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A093302687CFF8006D115B /* GitFriendsUITests.swift */; };
 		A7B1E883268AC24A00F10977 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E882268AC24A00F10977 /* NewsListViewModel.swift */; };
 		A7B1E886268AC5A400F10977 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E885268AC5A400F10977 /* HeaderView.swift */; };
 		A7B1E888268ACF8D00F10977 /* ShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B1E887268ACF8D00F10977 /* ShadowImageView.swift */; };
@@ -46,18 +46,18 @@
 		A720E4372687D4EE00166D92 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		A720E43A2687D5FE00166D92 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		A788EE89268A5F28005BF601 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
-		A7A0930B2687CFF7006D115B /* GitFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A0930B2687CFF7006D115B /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A0930E2687CFF7006D115B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7A093102687CFF7006D115B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A7A093122687CFF7006D115B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7A093172687CFF8006D115B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7A0931A2687CFF8006D115B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7A0931C2687CFF8006D115B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7A093212687CFF8006D115B /* GitFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7A093252687CFF8006D115B /* GitFriendsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFriendsTests.swift; sourceTree = "<group>"; };
+		A7A093212687CFF8006D115B /* NewsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A093252687CFF8006D115B /* NewsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppTests.swift; sourceTree = "<group>"; };
 		A7A093272687CFF8006D115B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7A0932C2687CFF8006D115B /* GitFriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitFriendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7A093302687CFF8006D115B /* GitFriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFriendsUITests.swift; sourceTree = "<group>"; };
+		A7A0932C2687CFF8006D115B /* NewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A093302687CFF8006D115B /* NewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppUITests.swift; sourceTree = "<group>"; };
 		A7A093322687CFF8006D115B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7B1E882268AC24A00F10977 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
 		A7B1E885268AC5A400F10977 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -118,9 +118,9 @@
 		A7A093022687CFF7006D115B = {
 			isa = PBXGroup;
 			children = (
-				A7A0930D2687CFF7006D115B /* GitFriends */,
-				A7A093242687CFF8006D115B /* GitFriendsTests */,
-				A7A0932F2687CFF8006D115B /* GitFriendsUITests */,
+				A7A0930D2687CFF7006D115B /* NewsApp */,
+				A7A093242687CFF8006D115B /* NewsAppTests */,
+				A7A0932F2687CFF8006D115B /* NewsAppUITests */,
 				A7A0930C2687CFF7006D115B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,14 +128,14 @@
 		A7A0930C2687CFF7006D115B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7A0930B2687CFF7006D115B /* GitFriends.app */,
-				A7A093212687CFF8006D115B /* GitFriendsTests.xctest */,
-				A7A0932C2687CFF8006D115B /* GitFriendsUITests.xctest */,
+				A7A0930B2687CFF7006D115B /* NewsApp.app */,
+				A7A093212687CFF8006D115B /* NewsAppTests.xctest */,
+				A7A0932C2687CFF8006D115B /* NewsAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7A0930D2687CFF7006D115B /* GitFriends */ = {
+		A7A0930D2687CFF7006D115B /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
 				A7B1E884268AC58E00F10977 /* Views */,
@@ -150,25 +150,25 @@
 				A7A0931C2687CFF8006D115B /* Info.plist */,
 				A720E4342687D48B00166D92 /* APIKey.swift */,
 			);
-			path = GitFriends;
+			path = NewsApp;
 			sourceTree = "<group>";
 		};
-		A7A093242687CFF8006D115B /* GitFriendsTests */ = {
+		A7A093242687CFF8006D115B /* NewsAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				A7A093252687CFF8006D115B /* GitFriendsTests.swift */,
+				A7A093252687CFF8006D115B /* NewsAppTests.swift */,
 				A7A093272687CFF8006D115B /* Info.plist */,
 			);
-			path = GitFriendsTests;
+			path = NewsAppTests;
 			sourceTree = "<group>";
 		};
-		A7A0932F2687CFF8006D115B /* GitFriendsUITests */ = {
+		A7A0932F2687CFF8006D115B /* NewsAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A7A093302687CFF8006D115B /* GitFriendsUITests.swift */,
+				A7A093302687CFF8006D115B /* NewsAppUITests.swift */,
 				A7A093322687CFF8006D115B /* Info.plist */,
 			);
-			path = GitFriendsUITests;
+			path = NewsAppUITests;
 			sourceTree = "<group>";
 		};
 		A7B1E884268AC58E00F10977 /* Views */ = {
@@ -184,9 +184,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7A0930A2687CFF7006D115B /* GitFriends */ = {
+		A7A0930A2687CFF7006D115B /* NewsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7A093352687CFF8006D115B /* Build configuration list for PBXNativeTarget "GitFriends" */;
+			buildConfigurationList = A7A093352687CFF8006D115B /* Build configuration list for PBXNativeTarget "NewsApp" */;
 			buildPhases = (
 				A7A093072687CFF7006D115B /* Sources */,
 				A7A093082687CFF7006D115B /* Frameworks */,
@@ -196,14 +196,14 @@
 			);
 			dependencies = (
 			);
-			name = GitFriends;
+			name = NewsApp;
 			productName = GitFriends;
-			productReference = A7A0930B2687CFF7006D115B /* GitFriends.app */;
+			productReference = A7A0930B2687CFF7006D115B /* NewsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A7A093202687CFF8006D115B /* GitFriendsTests */ = {
+		A7A093202687CFF8006D115B /* NewsAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7A093382687CFF8006D115B /* Build configuration list for PBXNativeTarget "GitFriendsTests" */;
+			buildConfigurationList = A7A093382687CFF8006D115B /* Build configuration list for PBXNativeTarget "NewsAppTests" */;
 			buildPhases = (
 				A7A0931D2687CFF8006D115B /* Sources */,
 				A7A0931E2687CFF8006D115B /* Frameworks */,
@@ -214,14 +214,14 @@
 			dependencies = (
 				A7A093232687CFF8006D115B /* PBXTargetDependency */,
 			);
-			name = GitFriendsTests;
+			name = NewsAppTests;
 			productName = GitFriendsTests;
-			productReference = A7A093212687CFF8006D115B /* GitFriendsTests.xctest */;
+			productReference = A7A093212687CFF8006D115B /* NewsAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A7A0932B2687CFF8006D115B /* GitFriendsUITests */ = {
+		A7A0932B2687CFF8006D115B /* NewsAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7A0933B2687CFF8006D115B /* Build configuration list for PBXNativeTarget "GitFriendsUITests" */;
+			buildConfigurationList = A7A0933B2687CFF8006D115B /* Build configuration list for PBXNativeTarget "NewsAppUITests" */;
 			buildPhases = (
 				A7A093282687CFF8006D115B /* Sources */,
 				A7A093292687CFF8006D115B /* Frameworks */,
@@ -232,9 +232,9 @@
 			dependencies = (
 				A7A0932E2687CFF8006D115B /* PBXTargetDependency */,
 			);
-			name = GitFriendsUITests;
+			name = NewsAppUITests;
 			productName = GitFriendsUITests;
-			productReference = A7A0932C2687CFF8006D115B /* GitFriendsUITests.xctest */;
+			productReference = A7A0932C2687CFF8006D115B /* NewsAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -259,7 +259,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A7A093062687CFF7006D115B /* Build configuration list for PBXProject "GitFriends" */;
+			buildConfigurationList = A7A093062687CFF7006D115B /* Build configuration list for PBXProject "NewsApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -272,9 +272,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7A0930A2687CFF7006D115B /* GitFriends */,
-				A7A093202687CFF8006D115B /* GitFriendsTests */,
-				A7A0932B2687CFF8006D115B /* GitFriendsUITests */,
+				A7A0930A2687CFF7006D115B /* NewsApp */,
+				A7A093202687CFF8006D115B /* NewsAppTests */,
+				A7A0932B2687CFF8006D115B /* NewsAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -328,7 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7A093262687CFF8006D115B /* GitFriendsTests.swift in Sources */,
+				70B3388926D0CCFA00F57338 /* NewsAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7A093312687CFF8006D115B /* GitFriendsUITests.swift in Sources */,
+				70B3388A26D0CD0100F57338 /* NewsAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,12 +345,12 @@
 /* Begin PBXTargetDependency section */
 		A7A093232687CFF8006D115B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A7A0930A2687CFF7006D115B /* GitFriends */;
+			target = A7A0930A2687CFF7006D115B /* NewsApp */;
 			targetProxy = A7A093222687CFF8006D115B /* PBXContainerItemProxy */;
 		};
 		A7A0932E2687CFF8006D115B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A7A0930A2687CFF7006D115B /* GitFriends */;
+			target = A7A0930A2687CFF7006D115B /* NewsApp */;
 			targetProxy = A7A0932D2687CFF8006D115B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -490,12 +490,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJ3LA939ZC;
-				INFOPLIST_FILE = GitFriends/Info.plist;
+				INFOPLIST_FILE = NewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rafaellevy.GitFriends;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaellevy.NewsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -509,12 +509,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJ3LA939ZC;
-				INFOPLIST_FILE = GitFriends/Info.plist;
+				INFOPLIST_FILE = NewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rafaellevy.GitFriends;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaellevy.NewsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -539,7 +539,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitFriends.app/GitFriends";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsApp.app/NewsApp";
 			};
 			name = Debug;
 		};
@@ -561,7 +561,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitFriends.app/GitFriends";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsApp.app/NewsApp";
 			};
 			name = Release;
 		};
@@ -608,7 +608,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7A093062687CFF7006D115B /* Build configuration list for PBXProject "GitFriends" */ = {
+		A7A093062687CFF7006D115B /* Build configuration list for PBXProject "NewsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7A093332687CFF8006D115B /* Debug */,
@@ -617,7 +617,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7A093352687CFF8006D115B /* Build configuration list for PBXNativeTarget "GitFriends" */ = {
+		A7A093352687CFF8006D115B /* Build configuration list for PBXNativeTarget "NewsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7A093362687CFF8006D115B /* Debug */,
@@ -626,7 +626,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7A093382687CFF8006D115B /* Build configuration list for PBXNativeTarget "GitFriendsTests" */ = {
+		A7A093382687CFF8006D115B /* Build configuration list for PBXNativeTarget "NewsAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7A093392687CFF8006D115B /* Debug */,
@@ -635,7 +635,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7A0933B2687CFF8006D115B /* Build configuration list for PBXNativeTarget "GitFriendsUITests" */ = {
+		A7A0933B2687CFF8006D115B /* Build configuration list for PBXNativeTarget "NewsAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7A0933C2687CFF8006D115B /* Debug */,
